@@ -8,10 +8,10 @@ Create Repositories
 
 ## Week 2:
 
-Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py
+*Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py*
 
-The inputs are the person's height in centimetres and weight in kilograms.
-The output  is their weight divided by their height in metres squared.
+*The inputs are the person's height in centimetres and weight in kilograms.*
+*The output  is their weight divided by their height in metres squared.*
 
 #### Code:
 ``` 
@@ -25,11 +25,11 @@ print ('BMI: {:.1f}' .format(BMI))
 
 ## Week 3:
 
-Write a program that takes asks a user to input a string and outputs every second letter in reverse order.
+*Write a program that takes asks a user to input a string and outputs every second letter in reverse order.*
 
-$ python secondstring.py
-Please enter a sentence: The quick brown fox jumps over the lazy dog.
-.o zletrv pu o wr cu h
+*$ python secondstring.py*
+*Please enter a sentence: The quick brown fox jumps over the lazy dog.*
+*.o zletrv pu o wr cu h*
 
 #### Code:
 ``` 
@@ -44,9 +44,9 @@ print(newString)
 
 *Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.*
 
-At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one
+*At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one*
 
-Have the program end if the current value is one.
+*Have the program end if the current value is one.*
 
 #### Code:
 ``` 
