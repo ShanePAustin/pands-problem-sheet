@@ -8,12 +8,12 @@ Create Repositories
 
 ## Week 2:
 
-_Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py_
+Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py
 
 The inputs are the person's height in centimetres and weight in kilograms.
 The output  is their weight divided by their height in metres squared.
 
-#####Code:
+##### Code:
 ``` 
 weight = int(input("Enter Weight (Kg): "))      
 height = int(input("Enter Height (CM): "))      
@@ -31,7 +31,7 @@ $ python secondstring.py
 Please enter a sentence: The quick brown fox jumps over the lazy dog.
 .o zletrv pu o wr cu h
 
-#####Code:
+##### Code:
 ``` 
 inputString = input("Please enter a sentence: ")
 
@@ -48,7 +48,7 @@ At each step calculate the next value by taking the current value and, if it is 
 
 Have the program end if the current value is one.
 
-#####Code:
+##### Code:
 ``` 
 num1 = int(input("Please enter a positive integer: "))
 
