@@ -1,2 +1,15 @@
 # pands-problem-sheet
-Weekly Task Submissions
+## WEEKLY TASK SUBMISSIONS
+### Shane Austin G00318488
+
+## Week 1:
+
+Create Repositories
+
+## Week 2:
+
+Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py
+
+The inputs are the person's height in centimetres and weight in kilograms.
+The output  is their weight divided by their height in metres squared.
+
