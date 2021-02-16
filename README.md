@@ -11,6 +11,7 @@ Create Repositories
 *Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py*
 
 *The inputs are the person's height in centimetres and weight in kilograms.*
+
 *The output  is their weight divided by their height in metres squared.*
 
 #### Code:
@@ -22,13 +23,18 @@ BMI = ((weight)/((height/100)**2))
 
 print ('BMI: {:.1f}' .format(BMI))
 ``` 
+#### Understanding:
+
+#### References:
 
 ## Week 3:
 
 *Write a program that takes asks a user to input a string and outputs every second letter in reverse order.*
 
 *$ python secondstring.py*
+
 *Please enter a sentence: The quick brown fox jumps over the lazy dog.*
+
 *.o zletrv pu o wr cu h*
 
 #### Code:
@@ -39,6 +45,9 @@ newString = inputString[::-2]
 
 print(newString)
 ```
+#### Understanding:
+
+#### References:
 
 ## Week 4:
 
@@ -63,4 +72,20 @@ while num1 != 1:
         num1 = (num1 // 2)
 
 print(num1, end = " ")
-```        
+```      
+#### Understanding:
+
+#### References:  
+
+## Week 5:
+
+*Write a program that outputs whether or not today is a weekday.*
+
+
+#### Code:
+``` 
+
+```      
+#### Understanding:
+
+#### References:  
