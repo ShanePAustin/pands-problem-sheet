@@ -86,8 +86,57 @@ print(num1, end = " ")
 
 #### Code:
 ``` 
+import datetime
+
+time = datetime.datetime.now()
+today = (time.strftime("%A"))
+
+if (today == 'Saturday' or today == 'Sunday'):
+    print("It is the weekend, yay!")
+
+else:
+    print ("Yes, unfortunately today is a weekday.")
 
 ```      
 #### Understanding:
 
 #### References:  
+
+https://www.w3schools.com/python/python_datetime.asp
+
+## Week 6:
+
+*Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.*
+
+
+#### Code:
+``` 
+def sqrt (num1):
+    guess = num1
+    for _i in range(20):  
+         
+        nextGuess = ((guess + num1 /guess)*0.5)
+        if abs(guess - nextGuess) < 0.000001:
+            break
+        else:
+            guess = nextGuess
+
+    return nextGuess
+
+num1 = 0
+while (num1 <= 0):
+    num1 = float(input("Enter a positive number:"))
+    if (num1 <0):
+        print("Error: Enter a positive number")
+   
+approx = (sqrt(num1))
+
+print(round(approx,1))
+```      
+#### Understanding:
+
+#### References:  
+
+https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDg9h2j7QuU
+https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
+https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
