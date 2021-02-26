@@ -138,5 +138,7 @@ print(round(approx,1))
 #### References:  
 
 https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDg9h2j7QuU
+
 https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
+
 https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
