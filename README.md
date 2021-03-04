@@ -226,6 +226,8 @@ https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 
 *Write a program that reads in a text file and outputs the number of e's it contains.*
 
+*The program should take the filename from an argument on the command line.*
+
 
 #### Code:
 ##### es.py
@@ -246,6 +248,12 @@ howManyEs = countEs()
 print ("There are {} 'E's' in {}".format(howManyEs,filename))
 ```      
 #### Understanding:
+
+import sys and sys.argv[] lets you import a file to be processed within the command line, here I have defined the imported file to be called 'filename'
+
+The function is defined as countEs which opens the file, reads the content and counts the instances of 'e' within the text and returns the result
+
+The result of the function is defined as howManyEs and outputted for the user.
 
 #### References:  
 
