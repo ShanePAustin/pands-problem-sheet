@@ -206,7 +206,7 @@ It starts a 'for loop' for an assigned 20 iterations. (this seemed to be more th
 
 It then starts the Newton formula with the requested number and the first approximation. It takes the result and redfines the output to be the guess in the next iteration.
 
-It will keep doing this loop 20 times or until the result is close enough, (the difference between the current guess and the previous iteration is less than 0.00001) it will then break the loop and return the result.
+It will keep doing this loop 20 times or until the result is close enough, (the difference between the current guess and the previous iteration is less than 0.00001) it will then break the loop and return the result. (It will most likely work with only one of these break clauses but I included both to maintain efficiency and prevent an infinite loop).
 
 At the start num1 is set to = 0 so it won't run until a positive integer is input, if '0' or a negative number is inputted it will request a positive number again.
 
