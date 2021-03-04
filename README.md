@@ -28,7 +28,20 @@ print ('BMI: {:.1f}' .format(BMI))
 ``` 
 #### Understanding:
 
+The first two lines of the code request and inputted integer from the user and defines them as
+weight and height.
+
+The next line processes the BMI calculation BMI = kg/m2.
+
+The last line prints the result of the calculation and formats it to 1 decimal place
+
 #### References:
+
+https://www.w3schools.com/python/ref_func_input.asp
+
+https://www.calculator.net/bmi-calculator.html
+
+https://stackoverflow.com/questions/3400965/getting-only-1-decimal-place
 
 ## Week 3:
 
@@ -51,7 +64,18 @@ print(newString)
 ```
 #### Understanding:
 
+Requests a input string from the user
+
+Takes the inputted string reverses by slicing with [::-1] and outputs every second letter with [::2]
+Which equates to [::-2]
+
+Then prints the new string
+
 #### References:
+
+https://www.w3schools.com/python/ref_func_slice.asp
+
+https://www.w3schools.com/python/python_howto_reverse_string.asp
 
 ## Week 4:
 
@@ -80,7 +104,27 @@ print(num1, end = " ")
 ```      
 #### Understanding:
 
-#### References:  
+Defines num1 as an inputted variable from the user
+
+It carries out the loop if the number does not equal 1 using 'while'
+
+The value gets printed to the line at the start of every loop, and carries out one of two calculations:
+
+If the number is odd (the remainder the number divded by 2 equals 1) the number is multiplied by 3 and 1 is added. Using an 'If' statement
+
+If the number is even it is divided by 2. Using the 'Else' statement
+
+The respective calcutlations are carried out and printed to the string until the number gets down to 1 and it stops the loop
+
+The final string is then printed
+
+#### References:
+
+https://www.w3schools.com/python/python_while_loops.asp
+
+https://www.w3schools.com/python/python_conditions.asp
+
+https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/
 
 ## Week 5:
 
@@ -104,9 +148,23 @@ else:
 ```      
 #### Understanding:
 
+Imports the datetime module and set the current date and time within the program (time = datetime.datetime.now())
+
+%A references the full word for the weekday
+
+'If' argument for when the actual day is Saturday or Sunday
+
+'Else' for all other days
+
+The program prints the required output for the specific instance
+
 #### References:  
 
 https://www.w3schools.com/python/python_datetime.asp
+
+https://www.geeksforgeeks.org/difference-operator-python/
+
+https://www.w3schools.com/python/python_conditions.asp
 
 ## Week 6:
 
