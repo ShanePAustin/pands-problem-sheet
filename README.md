@@ -142,3 +142,35 @@ https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDg9h2j7QuU
 https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
 
 https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+
+## Week 7:
+
+*Write a program that reads in a text file and outputs the number of e's it contains.*
+
+
+#### Code:
+``` 
+import sys
+
+filename = sys.argv[1]
+
+def countEs():
+
+    with open (filename) as f:
+        content = f.read()
+        Es = content.count("e")
+       
+        return Es
+
+howManyEs = countEs()
+print ("There are {} 'E's' in {}".format(howManyEs,filename))
+```      
+#### Understanding:
+
+#### References:  
+
+https://www.w3schools.com/python/ref_file_read.asp
+
+https://www.programiz.com/python-programming/methods/string/count
+
+https://bham-carpentries.github.io/2018-07-26-python_python-novice-inflammation/10-cmdline/index.html
