@@ -198,6 +198,22 @@ print(round(approx,1))
 ```      
 #### Understanding:
 
+Isaac Newton devised a clever method to easily approximate the square root without having to use a calculator that has the square root function. His method consists of making an educated guess and then entering it into his simple equation. You repeatedly take your answer and enter it in his equation until the correct square root is obtained. √ N ≈ ½(N/A + A) (shown in the school for champions link)
+
+When the function starts by taking in the inputted from the user and defines it as 'guess' to be the first approximation.
+
+It starts a 'for loop' for an assigned 20 iterations. (this seemed to be more than enough to get an accurate approximation)
+
+It then starts the Newton formula with the requested number and the first approximation. It takes the result and redfines the output to be the guess in the next iteration.
+
+It will keep doing this loop 20 times or until the result is close enough, (the difference between the current guess and the previous iteration is less than 0.00001) it will then break the loop and return the result.
+
+At the start num1 is set to = 0 so it won't run until a positive integer is input, if '0' or a negative number is inputted it will request a positive number again.
+
+The program then runs the function with the defined input.
+
+It prints the result and rounds to 1 decimal place.
+
 #### References:  
 
 https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDg9h2j7QuU
