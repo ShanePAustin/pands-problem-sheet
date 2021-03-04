@@ -14,6 +14,7 @@ def sqrt (num1):
         #Break clause if the guess is close enough for efficiency
         if abs(guess - nextGuess) < 0.000001:
             break
+        #assigning the nextGuess for the next iteration 
         else:
             guess = nextGuess
 
@@ -25,7 +26,9 @@ while (num1 <= 0):
     num1 = float(input("Enter a positive number:"))
     if (num1 <0):
         print("Error: Enter a positive number")
-   
+
+#run the function 
 approx = (sqrt(num1))
 
+#Print the result and round to 1dp
 print(round(approx,1))
