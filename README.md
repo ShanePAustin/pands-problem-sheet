@@ -41,6 +41,7 @@ print ('BMI: {:.1f}' .format(BMI))
 *.o zletrv pu o wr cu h*
 
 #### Code:
+##### secondstring.py
 ``` 
 inputString = input("Please enter a sentence: ")
 
@@ -61,6 +62,7 @@ print(newString)
 *Have the program end if the current value is one.*
 
 #### Code:
+##### collatz.py
 ``` 
 num1 = int(input("Please enter a positive integer: "))
 
@@ -86,6 +88,7 @@ print(num1, end = " ")
 
 
 #### Code:
+##### weekday.py
 ``` 
 import datetime
 
@@ -111,6 +114,7 @@ https://www.w3schools.com/python/python_datetime.asp
 
 
 #### Code:
+##### squareroot.py
 ``` 
 def sqrt (num1):
     guess = num1
@@ -150,6 +154,7 @@ https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 
 
 #### Code:
+##### es.py
 ``` 
 import sys
 
