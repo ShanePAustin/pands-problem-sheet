@@ -29,19 +29,19 @@ print ('BMI: {:.1f}' .format(BMI))
 #### Understanding:
 
 The first two lines of the code request and inputted integer from the user and defines them as
-weight and height.
+weight and height. [1]
 
-The next line processes the BMI calculation BMI = kg/m2.
+The next line processes the BMI calculation BMI = kg/m2. [2]
 
-The last line prints the result of the calculation and formats it to 1 decimal place
+The last line prints the result of the calculation and formats it to 1 decimal place. [3]
 
 #### References:
 
-https://www.w3schools.com/python/ref_func_input.asp
+1) https://www.w3schools.com/python/ref_func_input.asp
 
-https://www.calculator.net/bmi-calculator.html
+2) https://www.calculator.net/bmi-calculator.html
 
-https://stackoverflow.com/questions/3400965/getting-only-1-decimal-place
+3) https://stackoverflow.com/questions/3400965/getting-only-1-decimal-place
 
 ## Week 3:
 
@@ -67,15 +67,15 @@ print(newString)
 Requests a input string from the user
 
 Takes the inputted string reverses by slicing with [::-1] and outputs every second letter with [::2]
-Which equates to [::-2]
+Which equates to [::-2] [1][2]
 
 Then prints the new string
 
 #### References:
 
-https://www.w3schools.com/python/ref_func_slice.asp
+1) https://www.w3schools.com/python/ref_func_slice.asp
 
-https://www.w3schools.com/python/python_howto_reverse_string.asp
+2) https://www.w3schools.com/python/python_howto_reverse_string.asp
 
 ## Week 4:
 
@@ -106,13 +106,13 @@ print(num1, end = " ")
 
 Defines num1 as an inputted variable from the user
 
-It carries out the loop if the number does not equal 1 using 'while'
+It carries out the loop if the number does not equal 1 using 'while' [1]
 
-The value gets printed to the line at the start of every loop, and carries out one of two calculations:
+The value gets printed to the line at the start of every loop, and carries out one of two calculations: [3]
 
-If the number is odd (the remainder the number divded by 2 equals 1) the number is multiplied by 3 and 1 is added. Using an 'If' statement
+If the number is odd (the remainder the number divded by 2 equals 1) the number is multiplied by 3 and 1 is added. Using an 'If' statement [2]
 
-If the number is even it is divided by 2. Using the 'Else' statement
+If the number is even it is divided by 2. Using the 'Else' statement [2]
 
 The respective calcutlations are carried out and printed to the string until the number gets down to 1 and it stops the loop
 
@@ -120,11 +120,11 @@ The final string is then printed
 
 #### References:
 
-https://www.w3schools.com/python/python_while_loops.asp
+1) https://www.w3schools.com/python/python_while_loops.asp
 
-https://www.w3schools.com/python/python_conditions.asp
+2) https://www.w3schools.com/python/python_conditions.asp
 
-https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/
+3) https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/
 
 ## Week 5:
 
@@ -148,11 +148,11 @@ else:
 ```      
 #### Understanding:
 
-Imports the datetime module and set the current date and time within the program (time = datetime.datetime.now())
+Imports the datetime module and set the current date and time within the program (time = datetime.datetime.now()) [1]
 
 %A references the full word for the weekday
 
-'If' argument for when the actual day is Saturday or Sunday
+'If' argument for when the actual day is Saturday or Sunday [2][3]
 
 'Else' for all other days
 
@@ -160,11 +160,11 @@ The program prints the required output for the specific instance
 
 #### References:  
 
-https://www.w3schools.com/python/python_datetime.asp
+1) https://www.w3schools.com/python/python_datetime.asp
 
-https://www.geeksforgeeks.org/difference-operator-python/
+2) https://www.geeksforgeeks.org/difference-operator-python/
 
-https://www.w3schools.com/python/python_conditions.asp
+3) https://www.w3schools.com/python/python_conditions.asp
 
 ## Week 6:
 
@@ -198,15 +198,15 @@ print(round(approx,1))
 ```      
 #### Understanding:
 
-Isaac Newton devised a clever method to easily approximate the square root without having to use a calculator that has the square root function. His method consists of making an educated guess and then entering it into his simple equation. You repeatedly take your answer and enter it in his equation until the correct square root is obtained. √ N ≈ ½(N/A + A) (shown in the school for champions link)
+Isaac Newton devised a clever method to easily approximate the square root without having to use a calculator that has the square root function. His method consists of making an educated guess and then entering it into his simple equation. You repeatedly take your answer and enter it in his equation until the correct square root is obtained. √ N ≈ ½(N/A + A) (shown in the school for champions link) [1]
 
 When the function starts by taking in the inputted from the user and defines it as 'guess' to be the first approximation.
 
-It starts a 'for loop' for an assigned 20 iterations. (this seemed to be more than enough to get an accurate approximation)
+It starts a 'for loop' for an assigned 20 iterations. (this seemed to be more than enough to get an accurate approximation) [2]
 
 It then starts the Newton formula with the requested number and the first approximation. It takes the result and redfines the output to be the guess in the next iteration.
 
-It will keep doing this loop 20 times or until the result is close enough, (the difference between the current guess and the previous iteration is less than 0.00001) it will then break the loop and return the result. (It will most likely work with only one of these break clauses but I included both to maintain efficiency and prevent an infinite loop).
+It will keep doing this loop 20 times or until the result is close enough, (the difference between the current guess and the previous iteration is less than 0.00001) it will then break the loop and return the result. (It will most likely work with only one of these break clauses but I included both to maintain efficiency and prevent an infinite loop). [3]
 
 At the start num1 is set to = 0 so it won't run until a positive integer is input, if '0' or a negative number is inputted it will request a positive number again.
 
@@ -216,11 +216,11 @@ It prints the result and rounds to 1 decimal place.
 
 #### References:  
 
-https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDg9h2j7QuU
+1) https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDg9h2j7QuU
 
-https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
+2) https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
 
-https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+3) https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 
 ## Week 7:
 
@@ -249,16 +249,16 @@ print ("There are {} 'E's' in {}".format(howManyEs,filename))
 ```      
 #### Understanding:
 
-import sys and sys.argv[] lets you import a file to be processed within the command line, here I have defined the imported file to be called 'filename'
+import sys and sys.argv[] lets you import a file to be processed within the command line, here I have defined the imported file to be called 'filename' [3]
 
-The function is defined as countEs which opens the file, reads the content and counts the instances of 'e' within the text and returns the result
+The function is defined as countEs which opens the file, reads the content and counts the instances of 'e' within the text and returns the result. [1] [2]
 
 The result of the function is defined as howManyEs and outputted for the user.
 
 #### References:  
 
-https://www.w3schools.com/python/ref_file_read.asp
+1) https://www.w3schools.com/python/ref_file_read.asp
 
-https://www.programiz.com/python-programming/methods/string/count
+2) https://www.programiz.com/python-programming/methods/string/count
 
-https://bham-carpentries.github.io/2018-07-26-python_python-novice-inflammation/10-cmdline/index.html
+3) https://bham-carpentries.github.io/2018-07-26-python_python-novice-inflammation/10-cmdline/index.html
