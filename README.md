@@ -28,12 +28,12 @@ print ('BMI: {:.1f}' .format(BMI))
 ``` 
 #### Understanding:
 
-The first two lines of the code request and inputted integer from the user and defines them as
+* The first two lines of the code request and inputted integer from the user and defines them as
 weight and height. [1]
 
-The next line processes the BMI calculation BMI = kg/m2. [2]
+* The next line processes the BMI calculation BMI = kg/m2. [2]
 
-The last line prints the result of the calculation and formats it to 1 decimal place. [3]
+* The last line prints the result of the calculation and formats it to 1 decimal place. [3]
 
 #### References:
 
@@ -64,12 +64,12 @@ print(newString)
 ```
 #### Understanding:
 
-Requests a input string from the user
+* Requests a input string from the user
 
-Takes the inputted string reverses by slicing with [::-1] and outputs every second letter with [::2]
+* Takes the inputted string reverses by slicing with [::-1] and outputs every second letter with [::2]
 Which equates to [::-2] [1][2]
 
-Then prints the new string
+* Then prints the new string
 
 #### References:
 
@@ -104,19 +104,19 @@ print(num1, end = " ")
 ```      
 #### Understanding:
 
-Defines num1 as an inputted variable from the user
+* Defines num1 as an inputted variable from the user
 
-It carries out the loop if the number does not equal 1 using 'while' [1]
+* It carries out the loop if the number does not equal 1 using 'while' [1]
 
-The value gets printed to the line at the start of every loop, and carries out one of two calculations: [3]
+* The value gets printed to the line at the start of every loop, and carries out one of two calculations: [3]
 
-If the number is odd (the remainder the number divded by 2 equals 1) the number is multiplied by 3 and 1 is added. Using an 'If' statement [2]
+* If the number is odd (the remainder the number divded by 2 equals 1) the number is multiplied by 3 and 1 is added. Using an 'If' statement [2]
 
-If the number is even it is divided by 2. Using the 'Else' statement [2]
+* If the number is even it is divided by 2. Using the 'Else' statement [2]
 
-The respective calcutlations are carried out and printed to the string until the number gets down to 1 and it stops the loop
+* The respective calcutlations are carried out and printed to the string until the number gets down to 1 and it stops the loop
 
-The final string is then printed
+* The final string is then printed
 
 #### References:
 
@@ -148,15 +148,15 @@ else:
 ```      
 #### Understanding:
 
-Imports the datetime module and set the current date and time within the program (time = datetime.datetime.now()) [1]
+* Imports the datetime module and set the current date and time within the program (time = datetime.datetime.now()) [1]
 
-%A references the full word for the weekday
+* %A references the full word for the weekday
 
-'If' argument for when the actual day is Saturday or Sunday [2][3]
+* 'If' argument for when the actual day is Saturday or Sunday [2][3]
 
-'Else' for all other days
+* 'Else' for all other days
 
-The program prints the required output for the specific instance
+* The program prints the required output for the specific instance
 
 #### References:  
 
@@ -198,21 +198,21 @@ print(round(approx,1))
 ```      
 #### Understanding:
 
-Isaac Newton devised a clever method to easily approximate the square root without having to use a calculator that has the square root function. His method consists of making an educated guess and then entering it into his simple equation. You repeatedly take your answer and enter it in his equation until the correct square root is obtained. √ N ≈ ½(N/A + A) (shown in the school for champions link) [1]
+* Isaac Newton devised a clever method to easily approximate the square root without having to use a calculator that has the square root function. His method consists of making an educated guess and then entering it into his simple equation. You repeatedly take your answer and enter it in his equation until the correct square root is obtained. √ N ≈ ½(N/A + A) (shown in the school for champions link) [1]
 
-When the function starts by taking in the inputted from the user and defines it as 'guess' to be the first approximation.
+* When the function starts by taking in the inputted from the user and defines it as 'guess' to be the first approximation.
 
-It starts a 'for loop' for an assigned 20 iterations. (this seemed to be more than enough to get an accurate approximation) [2]
+* It starts a 'for loop' for an assigned 20 iterations. (this seemed to be more than enough to get an accurate approximation) [2]
 
-It then starts the Newton formula with the requested number and the first approximation. It takes the result and redfines the output to be the guess in the next iteration.
+* It then starts the Newton formula with the requested number and the first approximation. It takes the result and redfines the output to be the guess in the next iteration.
 
-It will keep doing this loop 20 times or until the result is close enough, (the difference between the current guess and the previous iteration is less than 0.00001) it will then break the loop and return the result. (It will most likely work with only one of these break clauses but I included both to maintain efficiency and prevent an infinite loop). [3]
+* It will keep doing this loop 20 times or until the result is close enough, (the difference between the current guess and the previous iteration is less than 0.00001) it will then break the loop and return the result. (It will most likely work with only one of these break clauses but I included both to maintain efficiency and prevent an infinite loop). [3]
 
-At the start num1 is set to = 0 so it won't run until a positive integer is input, if '0' or a negative number is inputted it will request a positive number again.
+* At the start num1 is set to = 0 so it won't run until a positive integer is input, if '0' or a negative number is inputted it will request a positive number again.
 
-The program then runs the function with the defined input.
+* The program then runs the function with the defined input.
 
-It prints the result and rounds to 1 decimal place.
+* It prints the result and rounds to 1 decimal place.
 
 #### References:  
 
@@ -249,11 +249,11 @@ print ("There are {} 'E's' in {}".format(howManyEs,filename))
 ```      
 #### Understanding:
 
-import sys and sys.argv[] lets you import a file to be processed within the command line, here I have defined the imported file to be called 'filename' [3]
+* import sys and sys.argv[] lets you import a file to be processed within the command line, here I have defined the imported file to be called 'filename' [3]
 
-The function is defined as countEs which opens the file, reads the content and counts the instances of 'e' within the text and returns the result. [1] [2]
+* The function is defined as countEs which opens the file, reads the content and counts the instances of 'e' within the text and returns the result. [1] [2]
 
-The result of the function is defined as howManyEs and outputted for the user.
+* The result of the function is defined as howManyEs and outputted for the user.
 
 #### References:  
 
