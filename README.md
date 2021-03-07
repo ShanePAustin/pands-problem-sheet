@@ -18,7 +18,7 @@ Create Repositories
 
 #### Code:
 ##### BMI.py
-``` 
+```python
 weight = int(input("Enter Weight (Kg): "))      
 height = int(input("Enter Height (CM): "))      
 
@@ -55,7 +55,7 @@ weight and height. [1]
 
 #### Code:
 ##### secondstring.py
-``` 
+```python 
 inputString = input("Please enter a sentence: ")
 
 newString = inputString[::-2]
@@ -87,7 +87,7 @@ Which equates to [::-2] [1][2]
 
 #### Code:
 ##### collatz.py
-``` 
+```python 
 num1 = int(input("Please enter a positive integer: "))
 
 while num1 != 1:
@@ -133,7 +133,7 @@ print(num1, end = " ")
 
 #### Code:
 ##### weekday.py
-``` 
+```python 
 import datetime
 
 time = datetime.datetime.now()
@@ -173,7 +173,7 @@ else:
 
 #### Code:
 ##### squareroot.py
-``` 
+```python 
 def sqrt (num1):
     guess = num1
     for _i in range(20):  
@@ -231,7 +231,7 @@ print(round(approx,1))
 
 #### Code:
 ##### es.py
-``` 
+```python 
 import sys
 
 filename = sys.argv[1]
