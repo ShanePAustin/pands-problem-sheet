@@ -262,3 +262,57 @@ print ("There are {} 'E's' in {}".format(howManyEs,filename))
 2) https://www.programiz.com/python-programming/methods/string/count
 
 3) https://bham-carpentries.github.io/2018-07-26-python_python-novice-inflammation/10-cmdline/index.html
+
+## Week 8:
+
+*Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes..*
+
+#### Code:
+##### plotTask.py
+```python 
+#plotTask.py
+#A program that plots the function x, x^2 and x^3
+#Author: Shane Austin
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+lowRange = 0
+highRange = 4
+step = (highRange*10)+1
+
+ax = plt.axes()
+plt.ylim(-2,70)
+
+xpoints = np.linspace(lowRange,highRange,step)
+
+fx = xpoints
+gx = xpoints**2
+hx = xpoints**3
+
+plt.plot(xpoints, fx,label = "$f(x)= x$", color="firebrick", linewidth = 2, marker = "o", markevery = 10)
+plt.plot(xpoints, gx,label = "$g(x)= x^{2}$", color="royalblue", linewidth = 2, marker = "o", markevery = 10)
+plt.plot(xpoints, hx, label = "$h(x)= x^{3}$", color="forestgreen", linewidth = 2, marker = "o", markevery = 10)
+
+plt.title ("Values of $x$, $x^{}$, and $x^{}$ in the range {}-{}".format(2,3,lowRange,highRange))
+plt.xlabel("$x$")
+plt.ylabel("$x^{n}$")
+plt.legend()
+
+plt.grid(linestyle ="dashed")
+ax.set_facecolor("lightgrey")
+
+plt.savefig("plotTask.png")
+```      
+#### Understanding:
+
+![alt text](https://github.com/ShanePAustin/pands-problem-sheet/blob/main/plotTest.png "First Plot")
+
+
+#### References:  
+
+1) 
+
+2) 
+
+3) 
