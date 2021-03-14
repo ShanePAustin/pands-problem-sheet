@@ -13,8 +13,8 @@ def countEs():
     #open the file/read the content and count the "e" instances
     with open (filename) as f:
         content = f.read()
-        Es = content.count("e")
-       
+        Es = content.count("e") ## + content.count("E") ##if upper case 'E' required
+               
         return Es
 
 #howManyEs = the result of the function
