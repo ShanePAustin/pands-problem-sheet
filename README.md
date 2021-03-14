@@ -308,7 +308,7 @@ plt.savefig("plotTask.png")
 
 ![alt text](https://github.com/ShanePAustin/pands-problem-sheet/blob/main/plotTest.png "First Plot")
 
-![alt text](https://github.com/ShanePAustin/pands-problem-sheet/blob/main/plotTask.png"Final Plot")
+![alt text](https://github.com/ShanePAustin/pands-problem-sheet/blob/main/plotTask.png "Final Plot")
 #### References:  
 
 1) 
