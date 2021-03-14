@@ -270,10 +270,6 @@ print ("There are {} 'E's' in {}".format(howManyEs,filename))
 #### Code:
 ##### plotTask.py
 ```python 
-#plotTask.py
-#A program that plots the function x, x^2 and x^3
-#Author: Shane Austin
-
 import matplotlib.pyplot as plt
 import numpy as np
 
