@@ -302,13 +302,47 @@ plt.savefig("plotTask.png")
 ```      
 #### Understanding:
 
+My original pre-formatted plot was produced using np.array(range(0,4)). This produced the graph shown in the image below, I was unhappy with this as it only plotted 3 points one for each integer in the range 0-4. I was unsure form the project description if the plot should be for the values 0-3 (range (0-4)) or values 0-4 (array [0,1,2,3,4]) [1]. I also wanted the ouput to produce a curve of each variable. Given this, I decided to the "linspace" operator [2] from NumPy and plot 10 points for every integer on the x-axis.
+
+##### First Plot
 ![alt text](https://github.com/ShanePAustin/pands-problem-sheet/blob/main/plotTest.png "First Plot")
 
+The result of this produced the plot curves shown below:
+
+##### Final Plot
 ![alt text](https://github.com/ShanePAustin/pands-problem-sheet/blob/main/plotTask.png "Final Plot")
+
+* For this plot I set the low range to 0 and the high range to 4 plotting 10 points per value on the x-axis (lines 8-13) to create a curve and make the "markevery" points consistent and easy to configure. [7]
+
+* Lines (16,17) set the axes area, I extended the y limit to 70 otherwise in cuts off at 60 and the highest plot value is 64 [6]
+
+* Line (20) creates the dataset, I used linspace as it plots evenly spaced samples over the interval range
+
+* Lines (23-25) performs the calculations for the y axis (x, xsquared and xcubed)
+
+* Lines (29-31) Plots the x and y values [5] as 3 curves it also sets the labels using LaTeX math notation [4], the line colours from the CSS color chart [3], the line width and marks the lines at every integer of the x-axis. 
+
+* Lines (34-37) Sets the title, axis labels and the the legend.
+
+* Lines (41,42) adds a dashed grid, and sets the background colour of the axes area to light grey [8]
+
+* Lines (46,47) can be commented out as required to either show or save the plot output
+
+
 #### References:  
 
-1) 
+1) https://numpy.org/doc/stable/reference/generated/numpy.array.html
 
-2) 
+2) https://numpy.org/doc/stable/reference/generated/numpy.linspace.html
 
-3) 
+3) https://matplotlib.org/3.1.1/gallery/color/named_colors.html 
+
+4) https://matplotlib.org/stable/tutorials/text/mathtext.html
+
+5) https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+
+6) https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylim.html
+
+7) https://matplotlib.org/stable/gallery/lines_bars_and_markers/markevery_demo.html
+
+8) https://www.w3schools.com/python/matplotlib_grid.asp
