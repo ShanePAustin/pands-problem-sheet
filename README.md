@@ -304,12 +304,11 @@ plt.savefig("plotTask.png")
 
 My original pre-formatted plot was produced using np.array(range(0,4)). This produced the graph shown in the image below, I was unhappy with this as it only plotted 3 points one for each integer in the range 0-4. I was unsure form the project description if the plot should be for the values 0-3 (range (0-4)) or values 0-4 (array [0,1,2,3,4]) [1]. I also wanted the ouput to produce a curve of each variable. Given this, I decided to the "linspace" operator [2] from NumPy and plot 10 points for every integer on the x-axis.
 
-##### First Plot
+##### First Plot:
 ![alt text](https://github.com/ShanePAustin/pands-problem-sheet/blob/main/plotTest.png "First Plot")
 
-The result of this produced the plot curves shown below:
-
-##### Final Plot
+The result of this produced the plot curves shown below
+##### Final Plot:
 ![alt text](https://github.com/ShanePAustin/pands-problem-sheet/blob/main/plotTask.png "Final Plot")
 
 * For this plot I set the low range to 0 and the high range to 4 plotting 10 points per value on the x-axis (lines 8-13) to create a curve and make the "markevery" points consistent and easy to configure. [7]
