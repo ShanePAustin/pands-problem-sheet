@@ -214,6 +214,24 @@ print(round(approx,1))
 
 * It prints the result and rounds to 1 decimal place.
 
+* Upon feedback I have removed the "for loop" and replace with "while True" so the program will continue iterating until the degree of accuracy is met. The updated function is shown below:
+
+```python
+def sqrt (num1):
+    guess = num1
+
+    while True:  
+       
+         nextGuess = ((guess + num1 /guess)*0.5)
+        if abs(guess - nextGuess) < 0.000001:
+            break
+
+        else:
+            guess = nextGuess
+
+    return nextGuess
+```
+
 #### References:  
 
 1) https://www.school-for-champions.com/algebra/square_root_approx.htm#.YDg9h2j7QuU
