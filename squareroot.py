@@ -6,8 +6,8 @@
 def sqrt (num1):
     #First approximation
     guess = num1
-    #test 20 iterations
-    for _i in range(20):  
+    #Loop until condition is met
+    while True:  
        
         #Newton approximation formula   
         nextGuess = ((guess + num1 /guess)*0.5)
